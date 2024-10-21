@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citi Bank - Loans</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/Citibank.jpg" alt="Citi Bank Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="loans.html">Loans</a></li>
+                <li><a href="insurance.html">Insurance</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Loans</h1>
+
+        <h2>Loan Application Form</h2>
+        <form id="loan-application-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="loan-type">Loan Type:</label>
+            <select id="loan-type" name="loan-type">
+                <option value="personal">Personal Loan</option>
+                <option value="home">Home Loan</option>
+                <option value="auto">Auto Loan</option>
+            </select><br>
+
+            <label for="loan-amount">Loan Amount:</label>
+            <input type="number" id="loan-amount" name="loan-amount" required><br>
+
+            <button type="submit">Apply for Loan</button>
+        </form>
+    </main>
+    <script src="js/style.js"></script>
+</body>
+</html>
